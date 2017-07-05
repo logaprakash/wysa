@@ -7,6 +7,7 @@
     android:background="@drawable/background"
     android:weightSum="1">
 
+<<<<<<< HEAD
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -38,17 +39,68 @@
             android:paddingRight="20sp"
             android:layout_marginTop="50sp"
             android:layout_alignParentTop="true"
+=======
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="80dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="0.18">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/check"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:buttonTint="#1d7795"
+<<<<<<< HEAD
+            android:scaleX="1.10"
+            android:scaleY="1.10"
+=======
+<<<<<<< HEAD
+            android:scaleX="1.10"
+            android:scaleY="1.10"
+=======
+            android:scaleX="1.30"
+            android:scaleY="1.30"
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
             />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:id="@+id/extra"
             android:textColor="@android:color/white"
             android:text="\\"
             android:textSize="50sp"
             android:layout_alignBottom="@+id/titleText"
             android:layout_toEndOf="@+id/titleText" />
+=======
+            android:id="@+id/midText"
+<<<<<<< HEAD
+            android:paddingBottom="30dp"
+            android:textSize="16sp"
+=======
+<<<<<<< HEAD
+            android:paddingBottom="30dp"
+            android:textSize="16sp"
+=======
+            android:paddingBottom="20dp"
+            android:textSize="20dp"
+>>>>>>> origin/master
+>>>>>>> origin/master
+            android:paddingLeft="10dp"
+            android:text="I agree to wysa\'s terms of use and privacy policy"
+        />
+>>>>>>> origin/master
 
     </RelativeLayout>
 <RelativeLayout
@@ -68,9 +120,11 @@
         android:textSize="40sp"
         android:textColor="#007ebd"/>
 
-    <TextView
+    <RelativeLayout
         android:layout_width="wrap_content"
+<<<<<<< HEAD
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:id="@+id/midText"
         android:textSize="12sp"
         android:paddingLeft="40sp"
@@ -83,6 +137,121 @@
         android:layout_above="@+id/belowText"
         android:layout_alignParentStart="true" />
 </RelativeLayout>
+=======
+        android:paddingTop="20dp"
+        android:id="@+id/top"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:src="@drawable/wysa"
+            android:scaleType="fitXY"
+            android:id="@+id/img"
+            android:layout_marginTop="80dp"
+            android:layout_alignTop="@+id/titleText"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/titleText"
+            android:text="I\'m here \n to Listen"
+            android:textSize="36sp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="45dp"
+            android:paddingTop="20dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_alignParentTop="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/extra"
+            android:text="\\"
+            android:textSize="50sp"
+            android:layout_alignBottom="@+id/titleText"
+            android:layout_toEndOf="@+id/titleText" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="150px"
+<<<<<<< HEAD
+        android:id="@+id/belowText"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="Let\'s start"
+        android:background="@drawable/bottom"
+        android:layout_marginBottom="9dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+=======
+        android:id="@+id/belowText"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="Let\'s start"
+        android:background="@drawable/bottom"
+        android:layout_marginBottom="9dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+=======
+        android:layout_height="100px"
+        android:id="@+id/belowText"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="Let\'s start"
+        android:background="@drawable/bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="14dp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:id="@+id/top"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:src="@drawable/wysa"
+            android:scaleType="fitXY"
+            android:layout_marginTop="80dp"
+            android:layout_alignTop="@+id/titleText"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/titleText"
+            android:text="I\'m here \n to Listen"
+            android:textSize="36dp"
+            android:padding="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_alignParentTop="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/extra"
+            android:text="\\"
+            android:textSize="50dp"
+            android:layout_marginStart="22dp"
+            android:layout_alignBottom="@+id/titleText"
+            android:layout_toEndOf="@+id/titleText" />
+
+    </RelativeLayout>
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
 
 
 </RelativeLayout>

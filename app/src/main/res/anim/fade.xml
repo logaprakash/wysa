@@ -3,6 +3,14 @@
     <alpha
         android:fromAlpha="0"
         android:toAlpha="1"
+<<<<<<< HEAD
         android:duration="2000" >
+=======
+<<<<<<< HEAD
+        android:duration="5000" >
+=======
+        android:duration="2000" >
+>>>>>>> origin/master
+>>>>>>> origin/master
     </alpha>
 </set>
